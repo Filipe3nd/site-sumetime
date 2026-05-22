@@ -1,0 +1,112 @@
+.caixa-busca {
+	display: flex;
+	border-radius: 30px;
+	overflow: hidden;
+	background-color: white;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 800px;
+	width: 90%;
+	margin: 0 auto;
+}
+.caixa-busca input {
+	border: none;
+	padding: 10px 15px;
+	outline: none;
+	width: 185px;
+	font-size: 15px;
+}
+.caixa-busca button {
+	border-radius: 20px;
+	background-color: #F2F2F2;
+	color: black;
+	margin: 5px;
+	padding: 8px;
+	cursor: pointer;
+	font-size: 15px;
+	width: 75px;
+	border: none;
+	transition: all 0,2s ease-in-out;
+}
+.caixa-busca button:hover {
+	background-color: #ffffff;
+	border-color: #dadce0;
+	color: #202124;
+	box-shadow: 0 1px 3px rgba (23, 23, 23, 0.15);
+}
+body {
+	background-color: #121212;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.topo-home {
+	text-align: center;
+	font-size: 60px;
+	color: white;
+}
+.topo-ameno {
+	text-align:  center;
+	font-size: 60px;
+	background: linear-gradient(45deg, #89e00d, #34e00d);
+    -webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: transparent;
+}
+.topo-quente {
+	text-align: center;
+	font-size: 60px;
+	background: linear-gradient(45deg, #e0260d ,#fc8c03 );
+    -webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: transparent;
+	
+
+}
+.topo-frio {
+	text-align: center;
+	font-size: 60px;
+	background: linear-gradient(45deg, #0ddde0, #0d89e0);
+    -webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: transparent;
+}
+h2 {
+	text-align: center;
+	font-size: 25px;
+}
+.texto {
+	background-color: #4a4848;
+	border-radius: 20px;
+	margin: 5px;
+	padding: 3px;
+	max-width: 650px;
+	margin: 0 auto;
+}
+.texto p {
+	font-size: 17px;
+	color: #ffffff;
+	text-align: center;
+}
+.go-to-home {
+	background-color: #4a4848;
+	border-radius: 15px;
+	margin: 5x;
+	padding: 8px;
+	text-decoration: none;
+	max-width: 70px;
+	margin: 0 auto;
+	text-align: center;
+	list-style: none;
+	margin-top: 20px;
+	font-size: 17px;
+}
+.go-to-home a {
+	text-decoration: none;
+	color: #ffffff;
+}
+ .go-to-home a:hover {
+	text-decoration: underline;
+}
